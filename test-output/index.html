@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testing_urbanLadder" class="navigator-link">
+              <span class="suite-name border-failed">Testing urbanLadder</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testing_urbanLadder" class="navigator-link ">
+                    <span>D:\cts intern\eclipse\eclipse workspace\Hackathon\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testing_urbanLadder" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testing_urbanLadder" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testing_urbanLadder" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testing_urbanLadder" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testing_urbanLadder" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testing_urbanLadder" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Testing_urbanLadder" class="hide-methods failed suite-Testing_urbanLadder"> (hide)</a> <!-- hide-methods failed suite-Testing_urbanLadder -->
+                      <a href="#" panel-name="suite-Testing_urbanLadder" class="show-methods failed suite-Testing_urbanLadder"> (show)</a> <!-- show-methods failed suite-Testing_urbanLadder -->
+                    </span>
+                    <div class="method-list-content failed suite-Testing_urbanLadder">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_urbanLadder" title="com.cognizant.projects.Testing.MainTesting" class="method navigator-link" hash-for-method="emailEnterdisWrong">emailEnterdisWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Testing_urbanLadder -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_urbanLadder" class="hide-methods passed suite-Testing_urbanLadder"> (hide)</a> <!-- hide-methods passed suite-Testing_urbanLadder -->
+                      <a href="#" panel-name="suite-Testing_urbanLadder" class="show-methods passed suite-Testing_urbanLadder"> (show)</a> <!-- show-methods passed suite-Testing_urbanLadder -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_urbanLadder">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_urbanLadder" title="com.cognizant.projects.Testing.MainTesting" class="method navigator-link" hash-for-method="getFirstThreeBookshelves">getFirstThreeBookshelves</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_urbanLadder" title="com.cognizant.projects.Testing.MainTesting" class="method navigator-link" hash-for-method="getGiftCards">getGiftCards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_urbanLadder" title="com.cognizant.projects.Testing.MainTesting" class="method navigator-link" hash-for-method="getListOfSubmenuItems">getListOfSubmenuItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_urbanLadder" title="com.cognizant.projects.Testing.MainTesting" class="method navigator-link" hash-for-method="showBookShelves">showBookShelves</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_urbanLadder -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_urbanLadder" class="panel Testing_urbanLadder">
+          <div class="suite-Testing_urbanLadder-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cognizant.projects.Testing.MainTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailEnterdisWrong">
+                  </a> <!-- emailEnterdisWrong -->
+                  <span class="method-name">emailEnterdisWrong</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.cognizant.projects.Testing.MainTesting.emailEnterdisWrong(MainTesting.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_urbanLadder-class-failed -->
+          <div class="suite-Testing_urbanLadder-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cognizant.projects.Testing.MainTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstThreeBookshelves">
+                  </a> <!-- getFirstThreeBookshelves -->
+                  <span class="method-name">getFirstThreeBookshelves</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGiftCards">
+                  </a> <!-- getGiftCards -->
+                  <span class="method-name">getGiftCards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListOfSubmenuItems">
+                  </a> <!-- getListOfSubmenuItems -->
+                  <span class="method-name">getListOfSubmenuItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showBookShelves">
+                  </a> <!-- showBookShelves -->
+                  <span class="method-name">showBookShelves</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_urbanLadder-class-passed -->
+        </div> <!-- panel Testing_urbanLadder -->
+        <div panel-name="test-xml-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\cts intern\eclipse\eclipse workspace\Hackathon\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testing urbanLadder&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing phase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cognizant.projects.Testing.MainTesting&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing phase --&gt;
+&lt;/suite&gt; &lt;!-- Testing urbanLadder --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing urbanLadder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing phase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing urbanLadder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing urbanLadder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_urbanLadder');
+function tableData_Testing_urbanLadder() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getGiftCards')
+data.setCell(0, 2, 'com.cognizant.projects.Testing.MainTesting')
+data.setCell(0, 3, 15862);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'showBookShelves')
+data.setCell(1, 2, 'com.cognizant.projects.Testing.MainTesting')
+data.setCell(1, 3, 9594);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getFirstThreeBookshelves')
+data.setCell(2, 2, 'com.cognizant.projects.Testing.MainTesting')
+data.setCell(2, 3, 3815);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getListOfSubmenuItems')
+data.setCell(3, 2, 'com.cognizant.projects.Testing.MainTesting')
+data.setCell(3, 3, 3732);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'emailEnterdisWrong')
+data.setCell(4, 2, 'com.cognizant.projects.Testing.MainTesting')
+data.setCell(4, 3, 11);
+window.suiteTableData['Testing_urbanLadder']= { tableData: data, tableDiv: 'times-div-Testing_urbanLadder'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <div id="times-div-Testing_urbanLadder">
+              </div> <!-- times-div-Testing_urbanLadder -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing urbanLadder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_urbanLadder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cognizant.projects.Testing.MainTesting</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">8258 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">showBookShelves</span>
+                <span class="method-start">8311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFirstThreeBookshelves</span>
+                <span class="method-start">17915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGiftCards</span>
+                <span class="method-start">21737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getListOfSubmenuItems</span>
+                <span class="method-start">37602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">emailEnterdisWrong</span>
+                <span class="method-start">41349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">41460 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
